@@ -1,6 +1,6 @@
 # Carlos Altán — Developer Portfolio
 
-Personal portfolio for Carlos Altán, Full Stack Jr Developer and Computer Science student at Universidad del Valle de Guatemala (UVG). This portfolio highlights selected projects, certifications, experience, and contact details in a bilingual UI.
+Personal portfolio for Carlos Altán, Full Stack Developer and Computer Science student at Universidad del Valle de Guatemala (UVG). This portfolio highlights selected projects, certifications, experience, and contact details in a bilingual UI.
 
 ---
 
@@ -90,7 +90,7 @@ Deploy on Vercel or any Next.js-compatible host. Add a GitHub token to the envir
 
 ## About
 
-Carlos Altán — Full Stack Jr Developer
+Carlos Altán — Full Stack Developer
 
 - Computer Science student at Universidad del Valle de Guatemala (UVG)
 - Featured projects: GuateVigila, Weather Way, EarthWay, ASIGBO

@@ -20,8 +20,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Carlos Altán — Full Stack Jr Developer",
-  description: "Portfolio of Carlos Altán, Full Stack Jr Developer.",
+  title: "Carlos Altán — Full Stack Developer",
+  description: "Portfolio of Carlos Altán, Full Stack Developer.",
   icons: {
     icon: "/logo.svg",
   },
