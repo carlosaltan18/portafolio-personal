@@ -17,7 +17,7 @@ export default function Hero() {
         <span className="grad-text">Carlos Altán.</span>
       </h1>
       <p className="text-[19px] text-fg-dim mb-[18px] font-normal">
-        <strong className="text-fg font-semibold">FullStack Junior Developer</strong>
+        <strong className="text-fg font-semibold">FullStack Developer</strong>
       </p>
       <p className="text-[15.5px] text-fg-dim leading-[1.6] max-w-[540px] mb-6 text-pretty">
         {locale === "en"
