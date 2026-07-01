@@ -10,7 +10,7 @@ const highlights = [
     categoryEs: "Lenguajes",
     items: [
       { label: "TypeScript" },
-      { label: "Go" },
+      { label: "Java" },
       { label: "Python" },
     ],
   },
@@ -28,7 +28,7 @@ const highlights = [
     categoryEs: "DevOps & Cloud",
     items: [
       { label: "Docker" },
-      { label: "Kubernetes" },
+      { label: "Vercel" },
       { label: "AWS" },
     ],
   },
