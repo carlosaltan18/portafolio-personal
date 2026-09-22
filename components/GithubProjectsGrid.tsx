@@ -116,6 +116,22 @@ function RepoArt({ project, index }: { project: PortfolioProject; index: number 
   if (repoName.includes("waterway-backend")) {
     return <img src="/assets/images/waterway.png" alt="WaterWay+" className="w-full h-full object-cover" />;
   }
+  if (repoName.includes("drunk-graph")) {
+    return (
+      <div className="grid h-full w-full grid-cols-[63%_37%] bg-[#080808]">
+        <img
+          src="/assets/images/drunkgraph-admin.jpeg"
+          alt="DrunkGraph administration interface"
+          className="h-full w-full object-cover object-top"
+        />
+        <img
+          src="/assets/images/drunkgraph-mobile.jpeg"
+          alt="DrunkGraph mobile recommendations"
+          className="h-full w-full border-l border-white/10 object-cover object-top"
+        />
+      </div>
+    );
+  }
   if (repoName.includes("proyecto2-db")) {
     return <img src="/assets/images/libromanga.png" alt="LibroManga" className="w-full h-full object-cover" />;
   }

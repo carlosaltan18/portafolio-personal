@@ -32,7 +32,7 @@ export default function Hero() {
         
         <div className="flex flex-col gap-1">
           <span className="text-[10px] uppercase tracking-[0.12em] text-fg-mute font-mono">Focus</span>
-          <span className="text-[14px] text-fg font-medium">Web</span>
+          <span className="text-[14px] text-fg font-medium">Full Stack</span>
         </div>
         <div className="flex flex-col gap-1">
           <span className="text-[10px] uppercase tracking-[0.12em] text-fg-mute font-mono">Status</span>
@@ -41,6 +41,10 @@ export default function Hero() {
         <div className="flex flex-col gap-1">
           <span className="text-[10px] uppercase tracking-[0.12em] text-fg-mute font-mono">{locale === "en" ? "Education" : "Formación"}</span>
           <span className="text-[14px] text-fg font-medium">{locale === "en" ? "CS & IT Engineering · UVG" : "CS e Ing. IT · UVG"}</span>
+        </div>
+        <div className="flex flex-col gap-1">
+          <span className="text-[10px] uppercase tracking-[0.12em] text-fg-mute font-mono">{locale === "en" ? "Recognition" : "Reconocimiento"}</span>
+          <span className="text-[14px] text-fg font-medium">{locale === "en" ? "Isabel Gutiérrez de Bosch Scholar" : "Becario Isabel Gutiérrez de Bosch"}</span>
         </div>
       </div>
     </BentoCard>

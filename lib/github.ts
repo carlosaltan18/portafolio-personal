@@ -8,6 +8,7 @@ const CURATED_REPOS = [
   "kinalitos/parade-weather",
   "bcastillo-2022474/GuateVigila",
   "asanabria-2021067/waterway-backend",
+  "carlosaltan18/drunk-graph",
   "carlosaltan18/earth_way_front",
   "carlosaltan18/Proyecto1-bitcoin-script",
   "carlosaltan18/earth-way",
@@ -204,6 +205,30 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     ],
     tags: ["JavaScript", "Node.js", "Express", "REST API", "JWT"],
     frontendRepoLink: "https://github.com/kinalitos/waterway-frontend",
+  },
+  "carlosaltan18/drunk-graph": {
+    displayName: "DrunkGraph",
+    badgeEn: "Graph Recommendations",
+    badgeEs: "Recomendaciones con grafos",
+    badgeColor: "gold",
+    productionUrl: "https://drunkgraph.netlify.app",
+    categoryEn: "Personalized beverage platform",
+    categoryEs: "Plataforma de bebidas personalizadas",
+    descriptionEn:
+      "Full-stack platform that recommends beverages in real time from each user's flavor preferences, budget, and alcohol preference using a graph-based recommendation engine.",
+    descriptionEs:
+      "Plataforma full-stack que recomienda bebidas en tiempo real segun los sabores, presupuesto y preferencia de alcohol de cada usuario mediante un motor basado en grafos.",
+    bulletsEn: [
+      "Models users, drinks, flavors, and venues as relationships in Neo4j",
+      "Next.js frontend with a Spring Boot API and secure JWT authentication",
+      "Includes personalized recommendations, consumption history, and venue administration",
+    ],
+    bulletsEs: [
+      "Modela usuarios, bebidas, sabores y lugares como relaciones en Neo4j",
+      "Frontend Next.js con API Spring Boot y autenticacion JWT segura",
+      "Incluye recomendaciones personalizadas, historial de consumo y administracion de lugares",
+    ],
+    tags: ["Next.js", "Spring Boot", "Neo4j", "FusionAuth", "Cloudinary"],
   },
 };
 

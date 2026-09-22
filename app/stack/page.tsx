@@ -14,6 +14,8 @@ const categories = [
       { label: "JavaScript", color: "#f7df1e" },
       { label: "Python", color: "#3776ab" },
       { label: "Java", color: "#openjdk" },
+      { label: "Kotlin", color: "#7f52ff" },
+      { label: "C++", color: "#00599c" },
       { label: "HTML5", color: "#e34f26" },
       { label: "CSS3", color: "#1572b6" },
     ],
@@ -24,7 +26,9 @@ const categories = [
     items: [
       { label: "Next.js", color: "#ffffff" },
       { label: "React", color: "#61dafb" },
+      { label: "NestJS", color: "#e0234e" },
       { label: "Spring Boot", color: "#6db33f" },
+      { label: "Hibernate", color: "#59666c" },
       { label: "Django", color: "#092e20" },
       { label: "Node.js", color: "#68a063" },
       { label: "Express.js", color: "#828282" },
@@ -40,7 +44,7 @@ const categories = [
       { label: "DuckDB", color: "#fff000" },
       { label: "MongoDB", color: "#47a248" },
       { label: "Neo4j", color: "#c72e49" },
-      { label: "Mysql", color: "#c72e49" },
+      { label: "MySQL", color: "#4479a1" },
     ],
   },
   {
@@ -64,6 +68,8 @@ const categories = [
       { label: "Notion", color: "#ffffff" },
       { label: "Cloudflare", color: "#f38020" },
       { label: "VS Code", color: "#007acc" },
+      { label: "Android Studio", color: "#3ddc84" },
+      { label: "Swagger", color: "#85ea2d" },
     ],
   },
 ];
@@ -75,12 +81,15 @@ function getTechIcon(label: string): string {
     "Python": "python",
     "Go": "go",
     "Java": "openjdk",
+    "Kotlin": "kotlin",
+    "C++": "cplusplus",
     "HTML5": "html5",
     "CSS3": "/assets/images/css.png",
     "Next.js": "nextdotjs/white",
     "React": "react",
     "NestJS": "nestjs",
     "Spring Boot": "springboot",
+    "Hibernate": "hibernate",
     "Django": "django",
     "Node.js": "nodedotjs",
     "Express.js": "express/white",
@@ -112,7 +121,9 @@ function getTechIcon(label: string): string {
     "Notion": "notion/white",
     "Neovim": "neovim",
     "Cloudflare": "cloudflare",
-    "VS Code": "/assets/images/vscode.png"
+    "VS Code": "/assets/images/vscode.png",
+    "Android Studio": "androidstudio",
+    "Swagger": "swagger",
   };
   const slug = mapping[label] || label.toLowerCase().replace(/[^a-z0-9]/g, "");
   if (slug.startsWith("/")) {
@@ -187,6 +198,11 @@ export default function StackPage() {
           "Trashify API uses Django REST Framework with PostgreSQL and MinIO for an image-based waste classification flow. Python works well there because the backend can grow toward data processing and ML-style workflows.",
       },
       {
+        label: "Kotlin and Android Studio for mobile development",
+        detail:
+          "I use Kotlin and Android Studio to build native Android applications, working with mobile interfaces, application logic, device resources, and the Android development workflow.",
+      },
+      {
         label: "Deployment and collaboration tools that fit the project",
         detail:
           "I use Vercel and Netlify for fast frontend delivery, Docker where services need reproducible local setup, and GitHub as the source of truth for collaborative projects like WaterWay, GuateVigila, and Weather Way.",
@@ -212,6 +228,11 @@ export default function StackPage() {
         label: "Python y Django para servicios backend",
         detail:
           "Trashify API usa Django REST Framework con PostgreSQL y MinIO para un flujo de clasificacion de residuos basado en imagenes. Python funciona bien ahi porque el backend puede crecer hacia procesamiento de datos y flujos tipo ML.",
+      },
+      {
+        label: "Kotlin y Android Studio para desarrollo movil",
+        detail:
+          "Uso Kotlin y Android Studio para crear aplicaciones Android nativas, trabajando con interfaces moviles, logica de aplicacion, recursos del dispositivo y el flujo de desarrollo de Android.",
       },
       {
         label: "Herramientas de despliegue y colaboracion segun el proyecto",
